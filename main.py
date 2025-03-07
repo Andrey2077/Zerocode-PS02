@@ -4,7 +4,7 @@ import pprint
 
 def task_1():
     parameters = {
-        'q': 'html'
+        'q': 'language:html'
     }
 
     response = requests.get('https://api.github.com/search/repositories', params=parameters)
